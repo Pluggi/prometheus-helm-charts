@@ -34137,6 +34137,25 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: 0.4.0
+    created: "2021-08-10T12:20:21.447316696Z"
+    description: Prometheus exporter for pgbouncer metrics
+    digest: c50098115067b0969b3e9294107e8b62ec4aa63d5d5d1d8f3eb53389ca9663d1
+    home: https://github.com/prometheus-community/helm-charts
+    keywords:
+    - prometheus
+    - pgbouncer
+    maintainers:
+    - email: pluggi512@gmail.com
+      name: Pluggi
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/Pluggi/prometheus-helm-charts/releases/download/prometheus-pgbouncer-exporter-1.0.11/prometheus-pgbouncer-exporter-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v2
+    appVersion: 0.4.0
     created: "2021-08-10T10:18:20.56133571Z"
     description: Prometheus exporter for pgbouncer metrics
     digest: fee421769c80cdd8b119d1637d4d7b8b2a406dd9334de67324276d23d5b2c282
@@ -37684,4 +37703,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-10T10:18:20.58385581Z"
+generated: "2021-08-10T12:20:21.461261807Z"
