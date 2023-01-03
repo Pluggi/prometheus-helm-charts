@@ -11,6 +11,7 @@ connection:
 # Name of a secret containing a connection string as described in
 # https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING
 # existingSecret: ""
+# existingSecretKey: ""
 
 replicaCount: 1
 

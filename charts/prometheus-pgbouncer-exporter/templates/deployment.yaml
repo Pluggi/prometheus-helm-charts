@@ -39,7 +39,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: {{ include "prometheus-pgbouncer-exporter.secretName" . }}
-                  key: connectionString
+                  key: {{ include "prometheus-pgbouncer-exporter.secretKey" . }}
           ports:
             - name: exporter-port
               containerPort: 9127

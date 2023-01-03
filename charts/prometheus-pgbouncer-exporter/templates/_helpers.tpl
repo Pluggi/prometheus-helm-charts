@@ -72,3 +72,14 @@ Determine secret name, can either be self-created or an existing one
 {{- include "prometheus-pgbouncer-exporter.fullname" . }}
 {{- end }}
 {{- end }}
+
+{{/*
+Determine secret key
+*/}}
+{{- define "prometheus-pgbouncer-exporter.secretKey" -}}
+{{- if .Values.existingSecretKey -}}
+{{- .Values.existingSecretKey }}
+{{- else }}
+connectionString
+{{- end }}
+{{- end }}
