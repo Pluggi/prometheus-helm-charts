@@ -79,7 +79,7 @@ Determine secret key
 {{- define "prometheus-pgbouncer-exporter.secretKey" -}}
 {{- if .Values.existingSecretKey -}}
 {{- .Values.existingSecretKey }}
-{{- else }}
+{{- else -}}
 connectionString
 {{- end }}
 {{- end }}
